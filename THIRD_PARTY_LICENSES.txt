@@ -1,0 +1,35 @@
+ЭкоОтчёт — сторонние компоненты и их лицензии
+=============================================
+
+Программа ЭкоОтчёт (EcoOtchet) — проприетарная. В её составе распространяются
+следующие свободные компоненты, каждый — на условиях своей лицензии:
+
+Qt for Python (PySide6, shiboken6) и Qt 6
+  Лицензия: GNU LGPL v3. Библиотеки Qt лежат в папке _internal отдельными
+  файлами (динамическая компоновка): их можно заменить своей сборкой той же
+  версии. Исходный код: https://code.qt.io/ и https://download.qt.io/
+  Текст лицензии: https://www.gnu.org/licenses/lgpl-3.0.html
+
+pypdfium2 / PDFium — чтение PDF (картинка страницы)
+  Лицензия: Apache 2.0 / BSD-3-Clause. https://github.com/pypdfium2-team/pypdfium2
+
+pypdf — чтение PDF (текст)
+  Лицензия: BSD-3-Clause. https://github.com/py-pdf/pypdf
+
+Tesseract OCR и языковые данные — распознавание текста
+  Лицензия: Apache 2.0. https://github.com/tesseract-ocr/tesseract
+
+pytesseract — Apache 2.0
+OpenCV (opencv-python-headless) — Apache 2.0
+NumPy — BSD-3-Clause
+Pillow — MIT-CMU (HPND)
+openpyxl — MIT
+pyxlsb — LGPL v3 (отдельный модуль в папке _internal)
+matplotlib — лицензия matplotlib (на основе PSF)
+cryptography — Apache 2.0 / BSD
+requests, tenacity, pydantic — Apache 2.0 / MIT
+anthropic, openai, google-genai — Apache 2.0 / MIT
+Leaflet (карта в ЭРА-Карте) — BSD-2-Clause
+Python — PSF License
+
+Полные тексты лицензий — по ссылкам выше и на страницах пакетов в PyPI.
